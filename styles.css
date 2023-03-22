@@ -13,7 +13,7 @@ body {
 .wrapper {
   display: grid;
   grid-gap: 10px;
-  background-color: aliceblue;
+  background-color: white;
   color: black;
 
   grid-template-columns: 20% 70%;
@@ -21,18 +21,13 @@ body {
     'sidebar content';
 }
 
-.box {
-  background-color: #LightGray;
-  color: #white;
+.sidebar {
+  background-color: LightGray;
+  color: black;
   border-radius: 5px;
   padding: 10px;
   font-size: 150%;
   font-family: Helvetica (sans-serif);
 }
 
-.header {
-	background-color: #white;
-	font-size: 600%;
-	font-family: Impact (sans-serif);
-	color: black;
-}
+
