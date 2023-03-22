@@ -5,3 +5,48 @@ body {
 .sidebar {
   grid-area: sidebar;
 }
+
+.content {
+  grid-area: content;
+}
+
+.header {
+   grid-area: header;
+}
+
+.image {
+   grid-area: image;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  background-color: aliceblue;
+  color: black;
+
+  grid-template-columns: 20% 70%;
+  grid-template-areas:
+    'image header'
+    'sidebar content'
+    'footer footer';
+}
+
+.box {
+  background-color: #LightGray;
+  color: #white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+  font-family: Helvetica (sans-serif);
+}
+
+.header {
+	background-color: #white;
+	font-size: 600%;
+	font-family: Impact (sans-serif);
+	color: black;
+}
