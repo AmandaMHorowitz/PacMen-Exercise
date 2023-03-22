@@ -10,18 +10,6 @@ body {
   grid-area: content;
 }
 
-.header {
-   grid-area: header;
-}
-
-.image {
-   grid-area: image;
-}
-
-.footer {
-	grid-area: footer;
-}
-
 .wrapper {
   display: grid;
   grid-gap: 10px;
@@ -30,9 +18,7 @@ body {
 
   grid-template-columns: 20% 70%;
   grid-template-areas:
-    'image header'
-    'sidebar content'
-    'footer footer';
+    'sidebar content';
 }
 
 .box {
